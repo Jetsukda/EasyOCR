@@ -263,7 +263,6 @@ class Reader(object):
             char = ''.join(list)
         return char
 
-
     def detect(self, img, min_size = 20, text_threshold = 0.7, low_text = 0.4,\
                link_threshold = 0.4,canvas_size = 2560, mag_ratio = 1.,\
                slope_ths = 0.1, ycenter_ths = 0.5, height_ths = 0.5,\

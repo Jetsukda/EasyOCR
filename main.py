@@ -56,4 +56,4 @@ def readtext():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host=18, port=8666)
+    app.run(debug=True, port=8666)

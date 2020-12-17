@@ -1,0 +1,9 @@
+version: '2'
+services:
+  easy_ocr:
+    build: .
+    container_name: ocr_api
+    ports:
+        - "8666:8666"
+    restart: always
+    command: python3 main.py
